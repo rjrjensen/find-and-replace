@@ -1,2 +1,9 @@
-# find-and-replace
-This is a collection of regex snippets that I've used more than once to clean up a file
+# Find and Replace Snippets
+
+## .NET
+
+### Update PackageReferences to self-closing tags
+| Step | Find | Replace |
+| ---- | ---- | ------- |
+| 1 | `>\r\s*<Version>` | ` Version="` |
+| 2 | `</Version>\r\s.*` | `" />` |
