@@ -11,10 +11,10 @@
 ### Remove comments
 | Step | Find | Replace |
 | ---- | ---- | ------- |
-| 1 | `///.+` | `` |
-| 2 | `//.+` | `` |
+| 1 | `///.+` |  |
+| 2 | `//.+` |  |
 
 ### Remove regions from C# code
 | Step | Find | Replace |
 | ---- | ---- | ------- |
-| 1 | `#.*region.+` | `` |
+| 1 | `#.*region.+` |  |
